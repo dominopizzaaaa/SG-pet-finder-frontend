@@ -1,4 +1,4 @@
 [[redirects]]
 from = "/*"
 to = "/index.html"
-git status = 200
+status = 200

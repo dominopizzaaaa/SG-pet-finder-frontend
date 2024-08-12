@@ -13,7 +13,7 @@ const Signup = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/signup', { email, username, password });
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/signup`, { email, username, password });
       console.log('Response from server:', response.data);
       setMessage('Signed up successfully!');
       setTimeout(() => {

@@ -13,7 +13,7 @@ const ShopOwnerLogin = () => {
     e.preventDefault();
     console.log('Submitting login form with:', { email, password });
     try {
-      const response = await axios.post('http://localhost:5000/api/shop-owners-login', { email, password });
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/shop-owners-login`, { email, password });
       console.log('Response from server:', response);
       localStorage.setItem('token', response.data.token); // Save the token for authenticated requests
       setMessage(response.data.message);

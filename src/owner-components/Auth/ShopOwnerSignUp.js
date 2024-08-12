@@ -21,7 +21,7 @@ const ShopOwnerSignUp = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/shop-owners-signup', { email, shopName, password });
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/shop-owners-signup`, { email, shopName, password });
       console.log('Response from server:', response);
       setMessage(response.data.message);
       navigate('/shop-owners-login'); // Redirect to login page after successful sign-up

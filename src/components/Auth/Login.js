@@ -11,7 +11,7 @@ const Login = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/login', { username, password });
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/login`, { username, password });
       localStorage.setItem('token', response.data.token);
       console.log('Token:', response.data.token); // Print the token to the console
       console.log('Response from server:', response.data);

@@ -42,7 +42,7 @@ const ListingForm = ({ shopName, setListings, listings }) => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/listings', data, {
+      const response = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/api/listings`, data, {
         headers: {
           'Content-Type': 'multipart/form-data',
           Authorization: `Bearer ${localStorage.getItem('token')}`,

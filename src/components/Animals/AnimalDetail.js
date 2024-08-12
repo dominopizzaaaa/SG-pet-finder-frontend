@@ -7,7 +7,7 @@ const AnimalDetail = () => {
   const { listing } = location.state;
 
   const getImageUrl = (filename) => {
-    const url = `http://localhost:5000/uploads/${filename}`;
+    const url = `${process.env.REACT_APP_BACKEND_URL}/uploads/${filename}`;
     console.log('Constructed Image URL:', url); // Log the URL to the console
     return url;
   };

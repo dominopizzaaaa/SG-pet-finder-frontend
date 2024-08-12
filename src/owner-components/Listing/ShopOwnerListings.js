@@ -13,7 +13,7 @@ const ShopOwnerListings = () => {
     // Fetch the shop name of the logged-in shop owner
     const fetchShopName = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/shop-name', {
+        const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/shop-name`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
           },
@@ -32,7 +32,7 @@ const ShopOwnerListings = () => {
       // Fetch listings for the logged-in shop owner by shop name
       const fetchListings = async () => {
         try {
-          const response = await axios.get(`http://localhost:5000/api/listings/by-shop-name/${shopName}`, {
+          const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/listings/by-shop-name/${shopName}`, {
             headers: {
               Authorization: `Bearer ${localStorage.getItem('token')}`,
             },

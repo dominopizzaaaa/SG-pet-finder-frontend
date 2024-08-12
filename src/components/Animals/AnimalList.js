@@ -8,10 +8,11 @@ const AnimalsList = ({ type }) => {
   const [listings, setListings] = useState([]);
   let filter;
 
+
   useEffect(() => {
     const fetchListings = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/listings', {
+        const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/listings`, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
           },

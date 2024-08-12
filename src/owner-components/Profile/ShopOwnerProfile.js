@@ -17,7 +17,7 @@ const ShopOwnerProfile = () => {
       }
 
       try {
-        const response = await axios.get('http://localhost:5000/api/shop-owners-profile', {
+        const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/shop-owners-profile`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },

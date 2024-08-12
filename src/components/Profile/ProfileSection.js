@@ -40,7 +40,7 @@ const ProfileSection = ({ user, setUser }) => {
     try {
       const token = localStorage.getItem('token');
       await axios.put(
-        'http://localhost:5000/api/change-password',
+        `${process.env.REACT_APP_BACKEND_URL}/api/change-password`,
         {
           previousPassword: passwordData.previousPassword,
           newPassword: passwordData.newPassword
@@ -85,7 +85,7 @@ const ProfileSection = ({ user, setUser }) => {
       }
   
       const response = await axios.put(
-        'http://localhost:5000/api/profile',
+        `${process.env.REACT_APP_BACKEND_URL}/api/profile`,
         updateData,
         {
           headers: {

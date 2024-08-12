@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/*"
+to = "/index.html"
+git status = 200

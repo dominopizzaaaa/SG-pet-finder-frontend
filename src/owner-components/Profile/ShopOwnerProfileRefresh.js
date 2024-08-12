@@ -3,7 +3,6 @@ import ShopOwnerProfileSection from './ShopOwnerProfileSection';
 import './styles/shop-owner-profile-refresh.css';
 
 const ShopOwnerProfileRefresh = ({ user, setUser }) => {
-  const [activeSection, setActiveSection] = useState('profile');
 
   return (
     <div className="shop-owner-profile-page">

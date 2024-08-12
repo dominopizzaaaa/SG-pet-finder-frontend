@@ -6,7 +6,6 @@ import './styles/AnimalList.css';
 
 const AnimalsList = ({ type }) => {
   const [listings, setListings] = useState([]);
-  const [filter, setFilter] = useState(type);
 
   useEffect(() => {
     const fetchListings = async () => {

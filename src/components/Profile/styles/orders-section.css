@@ -1,0 +1,76 @@
+/* orders-section.css */
+
+.orders-page {
+  padding: 20px;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto', sans-serif;
+}
+
+.orders-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #58a6ff;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #007bff;
+  background: none;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab.active {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.tab:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+.orders-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 600px;
+  background-color: #161b22;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.order-item:hover {
+  background-color: #0d1117;
+  transform: translateY(-2px);
+}
+
+.order-item p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #c9d1d9;
+}

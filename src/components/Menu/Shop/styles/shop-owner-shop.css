@@ -1,0 +1,32 @@
+.shop-owner-shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+  text-align: center;
+}
+
+.shop-owner-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.google-form-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-form-link:hover {
+  background-color: #0056b3;
+}

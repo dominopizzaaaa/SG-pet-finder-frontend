@@ -1,0 +1,200 @@
+.footer-top {
+  background-color: #004687;
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+.newsletter {
+  margin-bottom: 100px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+  width: 350px; /* Adjust the width as needed */
+}
+
+.newsletter-form button {
+  margin-top: 8px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #004687;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.social-media-feedback-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social-media {
+  flex: 1;
+  background-color: #e0f7fa;
+  padding: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.social-media h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #004687; /* Change text color to a darker shade for better visibility */
+}
+
+.social-media-icons {
+  margin-bottom: 20px;
+}
+
+.social-media-icons a {
+  color: #004687;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-media-icons a:hover {
+  color: #007bff;
+}
+
+.feedback {
+  flex: 2;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #004687;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feedback p {
+  font-size: 13px; /* Adjust the font size as needed */
+}
+
+.feedback h3 {
+  font-size: 20px;
+  margin-bottom: 7px;
+  color: #004687; /* Ensure the text color matches the overall theme */
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.send-button {
+  padding: 10px 20px;
+  background-color: #004687;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.send-button:hover {
+  background-color: #007bff;
+}
+
+.find-out-more {
+  padding: 10px 20px;
+  background-color: #004687;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.find-out-more:hover {
+  background-color: #007bff;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  color: #00aaff; /* Light blue font color */
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Center logo and text vertically */
+  margin-top: 7px;
+}
+
+
+.logo img {
+  height: 50px; /* Increase height */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.contact {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center;
+  background-color: #ffffff; /* White background color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.contact h1 {
+  margin: 0;
+  font-size: 24px; /* Larger font size for prominence */
+  font-weight: bold; /* Make the text bold */
+  color: #004687; /* Dark blue text color */
+  font-family: 'Arial', sans-serif; /* Change font to Arial for a clean look */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for depth */
+}
+
+.footer .auth-buttons {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.footer .auth-button {
+  padding: 10px 20px;
+  background-color: #1C58A6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.footer .auth-button:hover {
+  background-color: #295FA6;
+  transform: scale(1.05);
+}

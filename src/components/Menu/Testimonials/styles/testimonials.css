@@ -1,0 +1,81 @@
+.testimonials {
+  background-color: #f4f4f9;
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonials-header {
+  font-size: 32px;
+  color: #1C58A6; /* Adjust color as needed */
+  margin-bottom: 30px;
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.testimonial-content {
+  max-width: 800px; /* Increase max-width for a bigger box */
+  font-size: 18px;
+  line-height: 1.8; /* Increase line spacing */
+  color: #333;
+  padding: 40px; /* Increase padding */
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-author-date {
+  margin-top: 15px;
+  font-size: 14px; /* Decrease font size of author and date */
+  color: #555;
+}
+
+.testimonial-nav {
+  background: grey;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.testimonial-nav.left {
+  position: absolute;
+  left: 0;
+}
+
+.testimonial-nav.right {
+  position: absolute;
+  right: 0;
+}
+
+.testimonial-dots {
+  margin-top: 20px;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #007bff;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}

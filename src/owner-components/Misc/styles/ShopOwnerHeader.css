@@ -1,0 +1,53 @@
+.shop-owner-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.shop-owner-header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.shop-owner-header li {
+  margin-right: 20px;
+}
+
+.shop-owner-header a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #007bff;
+  transition: color 0.3s, background-color 0.3s;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.shop-owner-header a:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.logout-button-container {
+  margin-left: auto;
+}
+
+.logout-button {
+  background-color: #ff4d4d; /* Red */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #e60000; /* Darker red */
+}

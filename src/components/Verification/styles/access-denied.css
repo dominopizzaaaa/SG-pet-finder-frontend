@@ -1,0 +1,43 @@
+/* Container for the access denied message */
+.access-denied-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Styling for the message title */
+.access-denied-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Container for the buttons */
+.access-denied-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styling for the buttons */
+.access-denied-buttons .btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button hover effect */
+.access-denied-buttons .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

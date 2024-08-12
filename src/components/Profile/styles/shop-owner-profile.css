@@ -1,0 +1,41 @@
+.shop-owner-profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+.shop-owner-background {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.shop-background-image {
+  width: 100%;
+  height: auto;
+}
+
+.shop-owner-info {
+  text-align: center;
+  margin-top: -50px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.shop-owner-info h1 {
+  font-size: 32px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.shop-owner-info p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #333;
+}

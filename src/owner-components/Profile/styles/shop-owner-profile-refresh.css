@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Container for profile page */
+.shop-owner-profile-page {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+/* Sidebar Styles */
+.shop-owner-profile-sidebar {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden; /* Ensures the image fits within the container */
+}
+
+/* Background Image */
+.background-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Space between image and shop name */
+}
+
+/* Shop Name */
+h2 {
+  margin: 10px 0 5px;
+  font-size: 1.5em;
+}
+
+/* Email */
+p {
+  margin: 5px 0;
+}
+
+/* Content Section */
+.shop-owner-profile-content {
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,75 @@
+.animals-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
+
+.listings {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.listings h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.animal-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.animal-cards .listing {
+  flex: 0 1 calc(50% - 20px); /* 2 per row with a gap of 20px */
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animal-cards p {
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+}
+
+.navigation-buttons {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-buttons button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.navigation-buttons a {
+  text-decoration: none;
+}

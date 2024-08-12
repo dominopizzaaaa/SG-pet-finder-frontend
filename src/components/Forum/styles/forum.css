@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.forum-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+.forum-header {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 50px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.forum-header h1 {
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.forum-header p {
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #dcdcdc;
+}
+
+.join-group-button {
+  display: inline-block;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #ffffff;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 15px rgba(0, 114, 255, 0.3);
+}
+
+.join-group-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 114, 255, 0.5);
+}
+
+.join-group-button:active {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px rgba(0, 114, 255, 0.4);
+}

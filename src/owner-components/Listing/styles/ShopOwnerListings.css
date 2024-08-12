@@ -1,0 +1,131 @@
+.shop-owner-listings {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.shop-owner-listings h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.shop-owner-listings form {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-owner-listings label {
+  margin-bottom: 10px;
+}
+
+.shop-owner-listings input,
+.shop-owner-listings select,
+.shop-owner-listings textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.shop-owner-listings button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.shop-owner-listings button:hover {
+  background-color: #0056b3;
+}
+
+/* Container for all listings */
+.listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual listing card */
+.listing {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.listing:hover {
+  transform: scale(1.05);
+}
+
+/* Pet name heading */
+.listing h4 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Listing details */
+.listing p {
+  margin: 10px 0;
+  color: #666;
+}
+
+/* Photos */
+.listing img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  color: grey;
+}
+
+.filter-buttons button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.filter-buttons button:hover {
+  background-color: #e0e0e0;
+}
+
+.submit-new-listing-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-new-listing-button:hover {
+  background-color: #0056b3;
+}

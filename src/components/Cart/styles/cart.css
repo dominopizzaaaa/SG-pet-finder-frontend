@@ -1,0 +1,29 @@
+/* Cart Page Styles */
+.cart-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.cart-page h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.cart-empty {
+  margin-top: 50px;
+}
+
+.cart-empty p {
+  font-size: 20px;
+  color: #777;
+}
+
+.cart-empty a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.cart-empty a:hover {
+  text-decoration: underline;
+}

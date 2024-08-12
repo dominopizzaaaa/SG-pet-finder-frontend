@@ -1,0 +1,72 @@
+/* Container for the entire animal detail page */
+.animal-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for better contrast */
+  color: #333; /* Dark text color for readability */
+}
+
+/* Wrapper for the image to center it */
+.animal-detail-image-wrapper {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 20px;
+  border-radius: 8px; /* Rounded corners for a modern look */
+  overflow: hidden; /* Ensure image doesn't overflow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style for the image */
+.animal-detail-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Style for the information section */
+.animal-detail-info {
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title styling */
+.animal-detail-title {
+  font-size: 2.5rem;
+  color: #222; /* Slightly lighter black for the title */
+  margin-bottom: 15px;
+}
+
+/* Paragraph styling */
+.animal-detail-info p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  line-height: 1.6; /* Improve readability with line spacing */
+  color: #444; /* Darker text color for better contrast */
+}
+
+/* Emphasize labels with darker shade */
+.animal-detail-info strong {
+  font-weight: 600; /* Bold labels for emphasis */
+  color: #111; /* Darker shade for better visibility */
+}
+
+/* Style for the back button */
+.back-button {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px;
+  margin-bottom: 20px; /* Space below the button */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 1rem;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.back-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

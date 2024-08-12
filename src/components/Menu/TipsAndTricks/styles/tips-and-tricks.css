@@ -1,0 +1,67 @@
+/* Tips and Tricks Page Styles */
+.tips-and-tricks-page {
+  padding: 50px;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+.tips-and-tricks-page h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.tips-sections {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tip-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.tip-box:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tip-box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tip-box p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.tip-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tip-box a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.tip-box a:hover {
+  background: #0056b3;
+}

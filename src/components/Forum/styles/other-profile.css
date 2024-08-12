@@ -1,0 +1,100 @@
+/* OtherProfile.css */
+
+.other-profile-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: left;
+}
+
+.other-profile-page h2 {
+  font-size: 28px;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.other-profile-page p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.other-profile-page h3 {
+  font-size: 22px;
+  color: #007bff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.other-profile-page .overview,
+.other-profile-page .about,
+.other-profile-page .posts {
+  margin-bottom: 20px;
+}
+
+.other-profile-page .posts {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.other-profile-page .posts h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.other-profile-page .post {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.other-profile-page .post h4 {
+  font-size: 18px;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.other-profile-page .post p {
+  font-size: 16px;
+  color: #555;
+}
+
+
+.back-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.follow-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  background-color: #218838;
+}
+
+.error {
+  color: red;
+}

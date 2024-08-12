@@ -1,0 +1,77 @@
+/* Overall shop container styling */
+.shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #0D47A1; /* Dark blue background */
+  color: #fff;
+  font-family: 'Palatino', serif;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Title styling with fade-in effect */
+.shop-title {
+  font-size: 48px;
+  margin-top: -50px;
+  margin-bottom: 40px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Links container with horizontal alignment */
+.shop-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Individual link styling with sliding effect */
+.shop-link {
+  font-size: 24px;
+  padding: 200px 100px;
+  color: #fff;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: 2px solid #fff;
+  flex: 1;
+  text-align: center;
+  animation: slideIn 1s ease-in-out;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Prevent text from wrapping */
+  display: flex; /* Flexbox properties for equal size */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hover effect for links */
+.shop-link:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+  color: #fff;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

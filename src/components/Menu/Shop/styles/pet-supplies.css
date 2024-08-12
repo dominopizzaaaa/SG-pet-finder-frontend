@@ -1,0 +1,87 @@
+/* Pet Supplies Page Styles */
+.pet-supplies-page {
+  padding: 50px;
+  text-align: center;
+  background: #f4f4f9;
+}
+
+.pet-supplies-page h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.supply-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.supply-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 250px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.supply-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.supply-img {
+  width: 100%;
+  height: auto;
+}
+
+.supply-info {
+  padding: 15px;
+}
+
+.supply-info h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.supply-info p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.quantity-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.quantity-selector label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.quantity-selector input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.add-to-cart-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-to-cart-button:hover {
+  background: #0056b3;
+}

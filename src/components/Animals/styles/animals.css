@@ -1,0 +1,287 @@
+/* General Styles */
+body {
+  font-family: 'Palatino', 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', 'serif';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Animals Page Styles */
+.animals-page {
+  padding: 50px;
+  text-align: center;
+  background: #fff;
+}
+
+.animals-page h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.animal-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.animal-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.animal-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.animal-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.animal-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.animal-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.view-more-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.view-more-button:hover {
+  background: #0056b3;
+}
+
+/* Animal Detail Page Styles */
+.animal-detail-page {
+  padding: 50px;
+  background: #fff;
+  text-align: center;
+}
+
+.breadcrumb {
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.animal-detail {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.animal-image {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.animal-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.animal-info {
+  flex: 1;
+  max-width: 400px;
+  text-align: left;
+}
+
+.animal-info h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.animal-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.animal-price {
+  font-size: 24px;
+  color: #007bff;
+  margin: 10px 0;
+}
+
+.animal-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.animal-quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.animal-quantity label {
+  margin-right: 10px;
+}
+
+.animal-quantity input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.add-to-cart {
+  padding: 10px 20px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background: #0056b3;
+}
+
+.social-share {
+  margin-top: 20px;
+}
+
+.social-share a {
+  margin: 0 5px;
+  color: #007bff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-share a:hover {
+  color: #0056b3;
+}
+
+/* Filter Styles */
+.filters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.filters h3 {
+  margin-bottom: 10px;
+}
+
+.filter-category,
+.filter-price {
+  margin-bottom: 20px;
+}
+
+.filter-category select,
+.filter-price input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Browse All Animals Page Styles */
+.browse-all-animals-page {
+  padding: 50px;
+  background: #fff;
+}
+
+.browse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.browse-header h2 {
+  font-size: 32px;
+  color: #007bff;
+}
+
+.sort-by {
+  display: flex;
+  align-items: center;
+}
+
+.sort-by label {
+  margin-right: 10px;
+}
+
+.sort-by select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.browse-content {
+  display: flex;
+}
+
+.browse-content .filters {
+  flex: 1;
+}
+
+.browse-content .animal-cards {
+  flex: 3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.browse-content .animal-cards .animal-card {
+  width: 180px;
+  margin: 10px;
+}

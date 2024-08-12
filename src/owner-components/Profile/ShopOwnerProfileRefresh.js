@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ShopOwnerProfileSection from './ShopOwnerProfileSection';
 import './styles/shop-owner-profile-refresh.css';
 
 const ShopOwnerProfileRefresh = ({ user, setUser }) => {
+  let activeSection;
 
   return (
     <div className="shop-owner-profile-page">
